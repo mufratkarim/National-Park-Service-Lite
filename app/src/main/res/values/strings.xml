@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">American Parks</string>
+    <string name="title_activity_maps">American Parks by Location</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_hint_text">Enter State Code: WA, NY, AZ</string>
+</resources>

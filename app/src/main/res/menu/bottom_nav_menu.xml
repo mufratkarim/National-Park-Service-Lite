@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/map_button"
+        android:icon="@drawable/ic_round_map_24"
+        android:title="Map"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/parks_button"
+        android:icon="@drawable/ic_parks_24"
+        android:title="Parks"
+        app:showAsAction="ifRoom" />
+</menu>

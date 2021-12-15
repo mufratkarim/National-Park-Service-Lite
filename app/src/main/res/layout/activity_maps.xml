@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapsActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_margin="20dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="9dp"
+        android:backgroundTint="@color/cardview_light_background"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="6dp"
+        app:layout_constraintEnd_toStartOf="@+id/map"
+        app:layout_constraintStart_toEndOf="@+id/map"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <EditText
+                android:id="@+id/state_search_text"
+                android:layout_width="0dp"
+                android:layout_weight="4"
+                android:textColor="@color/black"
+                android:textColorHint="@android:color/darker_gray"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_margin="8dp"
+                android:ems="10"
+                android:hint="@string/search_hint_text"
+                android:inputType="textPersonName"
+                android:padding="8dp" />
+
+            <ImageButton
+                android:id="@+id/state_search_button"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:padding="8dp"
+                android:src="@drawable/ic_location_searching_24"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginEnd="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_nav_menu"/>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="4dp"
+        ads:layout_constraintBottom_toTopOf="@+id/bottom_nav"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+        <!--Real Ad: ca-app-pub-9615630260993650/8748892050-->
+    </com.google.android.gms.ads.AdView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

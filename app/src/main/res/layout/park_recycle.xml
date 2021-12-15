@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="4dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/recycle_imageView"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_margin="8dp"
+        android:padding="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/recycle_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:fontFamily="sans-serif-black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/recycle_imageView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/recycle_url"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="14sp"
+        android:autoLink="web"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/recycle_imageView"
+        app:layout_constraintTop_toBottomOf="@+id/recycle_name" />
+
+    <TextView
+        android:id="@+id/recycle_type"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/recycle_imageView"
+        app:layout_constraintTop_toBottomOf="@+id/recycle_url" />
+
+    <TextView
+        android:id="@+id/recycle_state"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/recycle_imageView"
+        app:layout_constraintTop_toBottomOf="@+id/recycle_type" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:padding="16dp"
+        android:layout_margin="16dp"
+        android:background="#BAA9A9"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recycle_imageView"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
