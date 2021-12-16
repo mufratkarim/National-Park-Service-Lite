@@ -53,7 +53,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     private ActivityMapsBinding binding;
     private List<Park> parks;
     private ParkViewModel parkViewModel;
-    private String code = "ny";
+    private String code = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,13 +61,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
         binding = ActivityMapsBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-
-        //Google Ads
-        MobileAds.initialize(this, initializationStatus -> {
-
-        });
-        AdRequest adRequest = new AdRequest.Builder().build();
-        binding.adView.loadAd(adRequest);
 
         parkViewModel = new ViewModelProvider(this).get(ParkViewModel.class);
         parks = new ArrayList<>();

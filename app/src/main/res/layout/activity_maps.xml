@@ -76,17 +76,4 @@
         app:layout_constraintStart_toStartOf="parent"
         app:menu="@menu/bottom_nav_menu"/>
 
-    <com.google.android.gms.ads.AdView
-        xmlns:ads="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/adView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        ads:layout_constraintStart_toStartOf="parent"
-        android:layout_margin="4dp"
-        ads:layout_constraintBottom_toTopOf="@+id/bottom_nav"
-        ads:adSize="BANNER"
-        ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
-        <!--Real Ad: ca-app-pub-9615630260993650/8748892050-->
-    </com.google.android.gms.ads.AdView>
-
 </androidx.constraintlayout.widget.ConstraintLayout>
