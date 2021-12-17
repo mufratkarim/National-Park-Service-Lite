@@ -18,11 +18,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
-import com.google.android.gms.ads.MobileAds;
-import com.google.android.gms.ads.initialization.InitializationStatus;
-import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
@@ -53,7 +48,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     private ActivityMapsBinding binding;
     private List<Park> parks;
     private ParkViewModel parkViewModel;
-    private String code = "";
+    private String code = "AZ";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -123,6 +118,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap = googleMap;
         mMap.setInfoWindowAdapter(new CustomInfoWindow(this));
         mMap.setOnInfoWindowClickListener(this);
+        mMap.setMapType(GoogleMap.MAP_TYPE_TERRAIN);
         mMap.setPadding(0,0,0,150);
         mMap.getUiSettings().setZoomControlsEnabled(true);
         mMap.getUiSettings().setZoomGesturesEnabled(true);

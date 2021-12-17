@@ -38,7 +38,7 @@
                 android:layout_height="50dp"
                 android:layout_gravity="center"
                 android:layout_margin="8dp"
-                android:ems="10"
+                android:textSize="13sp"
                 android:hint="@string/search_hint_text"
                 android:inputType="textPersonName"
                 android:padding="8dp" />
