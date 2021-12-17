@@ -11,5 +11,5 @@
 # Park Images Loading with ViewPager
 ![AppScreenshot](https://github.com/mufratkarim/NPS-American-Parks/blob/master/images/NPS%20Parks%20(3).jpg)
 
-# Park Marker Information
+# Park Full Information
 ![AppScreenshot](https://github.com/mufratkarim/NPS-American-Parks/blob/master/images/NPS%20Parks%20(5).jpg)
