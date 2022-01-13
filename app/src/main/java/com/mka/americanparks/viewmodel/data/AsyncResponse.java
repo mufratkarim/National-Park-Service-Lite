@@ -1,4 +1,4 @@
-package com.mka.americanparks.controller.data;
+package com.mka.americanparks.viewmodel.data;
 
 import com.mka.americanparks.model.Park;
 

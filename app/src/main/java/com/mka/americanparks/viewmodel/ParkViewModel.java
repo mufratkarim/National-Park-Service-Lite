@@ -1,10 +1,12 @@
-package com.mka.americanparks.model;
+package com.mka.americanparks.viewmodel;
 
 import java.util.List;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
+
+import com.mka.americanparks.model.Park;
 
 public class ParkViewModel extends ViewModel {
     private final MutableLiveData<Park> selectedPark = new MutableLiveData<>();

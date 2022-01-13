@@ -15,10 +15,10 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.mka.americanparks.R;
-import com.mka.americanparks.controller.adapter.OnParkClickListener;
-import com.mka.americanparks.controller.adapter.ParkRecyclerAdapter;
+import com.mka.americanparks.viewmodel.adapter.OnParkClickListener;
+import com.mka.americanparks.viewmodel.adapter.ParkRecyclerAdapter;
 import com.mka.americanparks.model.Park;
-import com.mka.americanparks.model.ParkViewModel;
+import com.mka.americanparks.viewmodel.ParkViewModel;
 
 import java.util.ArrayList;
 import java.util.List;

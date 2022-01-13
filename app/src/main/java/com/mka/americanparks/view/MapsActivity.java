@@ -20,12 +20,12 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.mka.americanparks.R;
-import com.mka.americanparks.model.Util.Util;
-import com.mka.americanparks.controller.adapter.CustomInfoWindow;
-import com.mka.americanparks.controller.data.Repository;
+import com.mka.americanparks.viewmodel.Util.Util;
+import com.mka.americanparks.viewmodel.adapter.CustomInfoWindow;
+import com.mka.americanparks.viewmodel.data.Repository;
 import com.mka.americanparks.databinding.ActivityMapsBinding;
 import com.mka.americanparks.model.Park;
-import com.mka.americanparks.model.ParkViewModel;
+import com.mka.americanparks.viewmodel.ParkViewModel;
 
 import java.util.ArrayList;
 import java.util.List;

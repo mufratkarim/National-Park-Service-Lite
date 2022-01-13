@@ -14,9 +14,9 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.mka.americanparks.R;
-import com.mka.americanparks.controller.adapter.ViewPagerAdapter;
+import com.mka.americanparks.viewmodel.adapter.ViewPagerAdapter;
 import com.mka.americanparks.databinding.FragmentDetailsBinding;
-import com.mka.americanparks.model.ParkViewModel;
+import com.mka.americanparks.viewmodel.ParkViewModel;
 
 public class DetailsFragment extends Fragment {
 

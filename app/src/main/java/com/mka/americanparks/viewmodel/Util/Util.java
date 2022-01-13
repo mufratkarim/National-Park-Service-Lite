@@ -1,4 +1,4 @@
-package com.mka.americanparks.model.Util;
+package com.mka.americanparks.viewmodel.Util;
 
 import android.content.Context;
 import android.view.View;

@@ -1,7 +1,6 @@
-package com.mka.americanparks.controller;
+package com.mka.americanparks.viewmodel.Util;
 
 import android.app.Application;
-import android.content.Context;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
