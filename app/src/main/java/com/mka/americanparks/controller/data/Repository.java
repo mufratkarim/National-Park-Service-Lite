@@ -1,10 +1,8 @@
-package com.mka.americanparks.data;
-
-import android.text.TextUtils;
+package com.mka.americanparks.controller.data;
 
 import com.android.volley.Request;
 import com.android.volley.toolbox.JsonObjectRequest;
-import com.mka.americanparks.Util.Util;
+import com.mka.americanparks.model.Util.Util;
 import com.mka.americanparks.controller.AppController;
 import com.mka.americanparks.model.Activities;
 import com.mka.americanparks.model.EntranceFees;

@@ -1,4 +1,4 @@
-package com.mka.americanparks.adapter;
+package com.mka.americanparks.controller.adapter;
 
 import android.view.LayoutInflater;
 import android.view.View;

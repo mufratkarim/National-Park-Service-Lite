@@ -1,4 +1,4 @@
-package com.mka.americanparks;
+package com.mka.americanparks.view;
 
 import android.os.Bundle;
 
@@ -6,20 +6,16 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.databinding.DataBindingUtil;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
-import androidx.viewpager2.widget.ViewPager2;
 
 import android.text.TextUtils;
-import android.text.util.Linkify;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
-import com.mka.americanparks.adapter.ViewPagerAdapter;
+import com.mka.americanparks.R;
+import com.mka.americanparks.controller.adapter.ViewPagerAdapter;
 import com.mka.americanparks.databinding.FragmentDetailsBinding;
-import com.mka.americanparks.model.Park;
 import com.mka.americanparks.model.ParkViewModel;
 
 public class DetailsFragment extends Fragment {

@@ -1,4 +1,4 @@
-package com.mka.americanparks;
+package com.mka.americanparks.view;
 
 import android.os.Bundle;
 
@@ -14,10 +14,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.mka.americanparks.adapter.OnParkClickListener;
-import com.mka.americanparks.adapter.ParkRecyclerAdapter;
-import com.mka.americanparks.data.AsyncResponse;
-import com.mka.americanparks.data.Repository;
+import com.mka.americanparks.R;
+import com.mka.americanparks.controller.adapter.OnParkClickListener;
+import com.mka.americanparks.controller.adapter.ParkRecyclerAdapter;
 import com.mka.americanparks.model.Park;
 import com.mka.americanparks.model.ParkViewModel;
 

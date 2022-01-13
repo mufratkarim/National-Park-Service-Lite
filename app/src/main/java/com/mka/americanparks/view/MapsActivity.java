@@ -1,22 +1,15 @@
-package com.mka.americanparks;
+package com.mka.americanparks.view;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
-import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
-import android.content.Context;
 import android.os.Bundle;
 import android.text.TextUtils;
-import android.util.AttributeSet;
 import android.util.Log;
-import android.view.MenuItem;
 import android.view.View;
-import android.widget.Toast;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -24,15 +17,12 @@ import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
-import com.google.android.gms.maps.model.MapStyleOptions;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
-import com.google.android.material.bottomnavigation.BottomNavigationView;
-import com.google.android.material.navigation.NavigationBarView;
-import com.mka.americanparks.Util.Util;
-import com.mka.americanparks.adapter.CustomInfoWindow;
-import com.mka.americanparks.data.AsyncResponse;
-import com.mka.americanparks.data.Repository;
+import com.mka.americanparks.R;
+import com.mka.americanparks.model.Util.Util;
+import com.mka.americanparks.controller.adapter.CustomInfoWindow;
+import com.mka.americanparks.controller.data.Repository;
 import com.mka.americanparks.databinding.ActivityMapsBinding;
 import com.mka.americanparks.model.Park;
 import com.mka.americanparks.model.ParkViewModel;

@@ -1,4 +1,4 @@
-package com.mka.americanparks.adapter;
+package com.mka.americanparks.controller.adapter;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -13,7 +13,6 @@ import com.mka.americanparks.R;
 import com.mka.americanparks.model.Park;
 import com.squareup.picasso.Picasso;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class ParkRecyclerAdapter extends RecyclerView.Adapter<ParkRecyclerAdapter.ParkViewHolder> {
