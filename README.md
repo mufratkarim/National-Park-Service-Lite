@@ -1,4 +1,4 @@
-# NPS-American-Parks
+# National-Park-Service-Lite
 An app that redesigns the official National Park Service app within a different User Interface by using the API Documentation from NPS.gov.
 
 # Tools
