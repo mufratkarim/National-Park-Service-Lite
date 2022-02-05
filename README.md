@@ -1,5 +1,5 @@
 # NPS-American-Parks
-A National Park Service (NPS) app that uses Volley library to make RESTful API requests and parse the JSON data of 420+ national parks of USA in a stunning display.
+An app that redesigns the official National Park Service app within a different User Interface by using the API Documentation from NPS.gov.
 
 Concepts: Android Components (Activity, Services, Broadcast Receivers, Content Providers), API Design Techniques, Third Party Libraries (Picasso, Volley)
 
