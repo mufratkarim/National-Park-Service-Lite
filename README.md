@@ -1,5 +1,5 @@
 # National-Park-Service-Lite
-An app that redesigns the official National Park Service app within a different User Interface by using the API Documentation from NPS.gov.
+A lite version of the official National Park Service app that uses the API Documentation from NPS.gov to build a similar application with an entirely different User Interface.
 
 # Tools
 RESTful API with Volley and JSON, Google Maps API, Picasso, ViewPager, CardView, RecyclerView.
